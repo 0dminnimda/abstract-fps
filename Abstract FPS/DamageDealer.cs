@@ -7,15 +7,7 @@ namespace Abstract_FPS
 {
     public abstract class DamageDealer : IDamageDealer
     {
-        //public abstract IDamagePattern damagePattern { get; }
-
-        public IDamagePattern damagePattern
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public abstract IDamagePattern damagePattern { get; }
 
         public void Damage(IDamageReceiver damageReceiver)
         {
