@@ -17,5 +17,9 @@ namespace Abstract_FPS
         int infoImportantForDamage { get; set; }
 
         void TakeDamageFrom(IDamageDealer damageDealer);
+        /// <summary>
+        /// takes health info and handles damage
+        /// </summary>
+        void TakeDamage();
     }
 }
