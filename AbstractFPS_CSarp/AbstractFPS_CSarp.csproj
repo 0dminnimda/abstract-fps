@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1C614A3C-02B9-4F2F-B9AC-20C2442AFC23}</ProjectGuid>
+    <ProjectGuid>{09036824-6CE4-4D6C-A3BB-E98CA258D676}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Abstract_FPS</RootNamespace>
     <AssemblyName>Abstract FPS</AssemblyName>
@@ -34,15 +34,16 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram_First.cd" />
+    <None Include="DamageSystem\DamageSystem.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseDamagePattern.cs" />
-    <Compile Include="DamageDealer.cs" />
-    <Compile Include="DamageReceiver.cs" />
-    <Compile Include="IDamageDealer.cs" />
-    <Compile Include="IDamagePattern.cs" />
-    <Compile Include="IDamageReceiver.cs" />
+    <Compile Include="DamageSystem\BaseDamagePattern.cs" />
+    <Compile Include="DamageSystem\DamageDealer.cs" />
+    <Compile Include="DamageSystem\DamageReceiver.cs" />
+    <Compile Include="DamageSystem\IDamageDealer.cs" />
+    <Compile Include="DamageSystem\IDamagePattern.cs" />
+    <Compile Include="DamageSystem\IDamageReceiver.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
