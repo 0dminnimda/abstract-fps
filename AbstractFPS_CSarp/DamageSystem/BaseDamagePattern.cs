@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Abstract_FPS
+namespace DamageSystem
 {
     internal abstract class BaseDamagePattern : IDamagePattern
     {
@@ -13,7 +13,8 @@ namespace Abstract_FPS
             if (damageReceiver.infoImportantForDamage == 5)
             {
                 // damage set to n
-            } else
+            }
+            else
             {
                 // damage set to m
             }
