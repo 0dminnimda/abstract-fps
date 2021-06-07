@@ -7,7 +7,7 @@ namespace Abstract_FPS
 {
     internal abstract class BaseDamagePattern : IDamagePattern
     {
-        public void ApplyOn(string damageReceiver)
+        public void ApplyOn(IDamageReceiver damageReceiver)
         {
             throw new NotImplementedException();
         }

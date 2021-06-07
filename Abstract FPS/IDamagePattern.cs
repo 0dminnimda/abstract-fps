@@ -7,6 +7,6 @@ namespace Abstract_FPS
 {
     public interface IDamagePattern
     {
-        void ApplyOn(string damageReceiver);
+        void ApplyOn(IDamageReceiver damageReceiver);
     }
 }
