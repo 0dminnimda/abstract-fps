@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AbstractFPSCpp", "AbstractFPS_Cpp\AbstractFPS_Cpp.vcxproj", "{8E3407D6-1F2F-4780-B2ED-52D3026B3960}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AbstractGameCpp", "AbstractGame_Cpp\AbstractGame_Cpp.vcxproj", "{8E3407D6-1F2F-4780-B2ED-52D3026B3960}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFPS_CSarp", "AbstractFPS_CSarp\AbstractFPS_CSarp.csproj", "{09036824-6CE4-4D6C-A3BB-E98CA258D676}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractGame_CSarp", "AbstractGame_CSarp\AbstractGame_CSarp.csproj", "{09036824-6CE4-4D6C-A3BB-E98CA258D676}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
