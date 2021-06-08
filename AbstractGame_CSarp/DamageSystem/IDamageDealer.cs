@@ -7,7 +7,7 @@ namespace DamageSystem
 {
     public interface IDamageDealer
     {
-        IDamagePattern damagePattern { get; }
+        // IDamagePattern damagePattern { get; }
 
         /// <summary>
         /// uses damagePattern to damage damageReceiver

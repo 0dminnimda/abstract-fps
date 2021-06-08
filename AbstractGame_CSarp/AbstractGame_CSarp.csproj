@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{09036824-6CE4-4D6C-A3BB-E98CA258D676}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Abstract_FPS</RootNamespace>
-    <AssemblyName>Abstract FPS</AssemblyName>
+    <RootNamespace>AbstractGame_CSarp</RootNamespace>
+    <AssemblyName>AbstractGame_CSarp</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -37,6 +37,7 @@
     <None Include="DamageSystem\DamageSystem.cd" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Damageable.cs" />
     <Compile Include="DamageSystem\BaseDamagePattern.cs" />
     <Compile Include="DamageSystem\DamageDealer.cs" />
     <Compile Include="DamageSystem\DamageReceiver.cs" />
